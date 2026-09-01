@@ -1,0 +1,15 @@
+{
+  "baseline_images_used": 300,
+  "z_thresh_used": 2.5,
+  "min_component_size_used": 3,
+  "false_positive_rate": 0.25820568927789933,
+  "detection_rate_by_target": {
+    "prawn": 0.9146341463414634,
+    "tuna": 0.9757698132256436,
+    "cetacean": 0.9836461126005361
+  },
+  "n_negative_images": 457,
+  "n_prawn_images": 82,
+  "n_tuna_images": 1981,
+  "n_cetacean_images": 7460
+}

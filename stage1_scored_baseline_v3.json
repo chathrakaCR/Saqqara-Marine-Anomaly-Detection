@@ -1,0 +1,16 @@
+{
+  "z_thresh": 2.5,
+  "glint_thresh": 220,
+  "min_component_area_px": 3000,
+  "n_segments": 150,
+  "compactness": 10,
+  "n_buckets": 3,
+  "bucket_edges": [
+    98.48828532025743,
+    132.1124305725098
+  ],
+  "false_positive_rate": 0.18306636155606407,
+  "prawn_detection_rate": 1.0,
+  "n_negative_images": 437,
+  "n_prawn_images": 82
+}
