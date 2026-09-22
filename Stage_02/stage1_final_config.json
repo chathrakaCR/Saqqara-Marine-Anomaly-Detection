@@ -1,0 +1,29 @@
+{
+  "img_size": [
+    512,
+    512
+  ],
+  "n_segments": 250,
+  "compactness": 20,
+  "glcm_levels": 32,
+  "glint_thresh": 220,
+  "n_buckets": 3,
+  "bucket_edges": [
+    98.48828532025743,
+    132.1124305725098
+  ],
+  "z_thresh": 2.5,
+  "min_features_flagged": 2,
+  "min_component_area_px": 2000,
+  "local_z_thresh": 2.5,
+  "min_area_local": 1000,
+  "false_positive_rate": 0.4622425629290618,
+  "anomaly_detection_rate_on_prawn_images": 1.0,
+  "anomaly_detection_rate_on_tuna_images": 0.925,
+  "anomaly_detection_rate_on_cetacean_images": 1.0,
+  "n_negative_images": 437,
+  "n_prawn_images": 82,
+  "n_tuna_images_sampled": 200,
+  "n_cetacean_images_sampled": 200,
+  "note": "Detection is species-agnostic: combines a texture rule (5-feature GLCM/LBP, bucket-relative z-scores) OR a local-brightness rule (within-image relative, no external baseline). Rates measure whether the detector flags a region as anomalous, NOT species-level identification - that is Stage 3's job. Stage 2 must apply BOTH rules (texture OR local-brightness) to reproduce this detector exactly - using only the texture rule will not match these numbers."
+}
