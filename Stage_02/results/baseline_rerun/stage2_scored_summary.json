@@ -1,0 +1,17 @@
+{
+  "segformer_checkpoint": "nvidia/segformer-b0-finetuned-ade-512-512",
+  "best_checkpoint": "segformer_b0_epoch20.pt",
+  "num_epochs": 30,
+  "crop_augment_prob": 0.5,
+  "n_train_images": 468,
+  "n_prawn_train": 15,
+  "n_tuna_train": 16,
+  "use_new_data": false,
+  "n_new_prawn_added": 0,
+  "n_new_tuna_added": 0,
+  "n_negative_train": 437,
+  "prawn_model_iou": 0.5176432357783096,
+  "prawn_human_ceiling": 0.5867,
+  "tuna_model_iou": 0.7936222835997149,
+  "tuna_human_ceiling": 0.7204
+}
