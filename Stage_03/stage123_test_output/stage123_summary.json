@@ -1,0 +1,69 @@
+{
+  "confusion_matrix": {
+    "rows_true": [
+      "prawn",
+      "tuna",
+      "clean"
+    ],
+    "cols_predicted": [
+      "prawn",
+      "tuna",
+      "none"
+    ],
+    "values": [
+      [
+        23,
+        2,
+        7
+      ],
+      [
+        0,
+        85,
+        58
+      ],
+      [
+        0,
+        0,
+        20
+      ]
+    ]
+  },
+  "funnel": {
+    "prawn": {
+      "images": 32,
+      "stage1_flagged": 32,
+      "stage2_mask": 25,
+      "track_a_measured": 25,
+      "final_prawn_or_tuna": 25
+    },
+    "tuna": {
+      "images": 143,
+      "stage1_flagged": 135,
+      "stage2_mask": 89,
+      "track_a_measured": 86,
+      "final_prawn_or_tuna": 85
+    },
+    "clean": {
+      "images": 20,
+      "stage1_flagged": 8,
+      "stage2_mask": 0,
+      "track_a_measured": 0,
+      "final_prawn_or_tuna": 0
+    }
+  },
+  "overall_correct": 128,
+  "overall_n": 195,
+  "set_aside_as_lookalikes": 555,
+  "crashed": 0,
+  "mask_accuracy": {},
+  "settings": {
+    "prob": 0.35,
+    "min_px": 80,
+    "dilation": 2,
+    "crop_pad": 20,
+    "ring_px": 25,
+    "min_native_px": 24,
+    "min_native_mask_px": 30
+  },
+  "track_a_feature_set": "everything_native"
+}

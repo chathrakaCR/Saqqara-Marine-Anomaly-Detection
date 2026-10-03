@@ -1,0 +1,717 @@
+{
+  "other_000_transformed_flipped_17_png.rf.fc38b41db84992bb2754bb7a53c02d0c.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\heldout_split\\transformed_flipped_17_png.rf.fc38b41db84992bb2754bb7a53c02d0c.jpg",
+    "box_in_512_frame": [
+      241,
+      291,
+      512,
+      512
+    ],
+    "crop_scale": 1.8892988929889298,
+    "src_w": 256.0
+  },
+  "other_001_original_17_png.rf.56b7e381ceb73b49ba1c3cbf2413998d.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\heldout_split\\original_17_png.rf.56b7e381ceb73b49ba1c3cbf2413998d.jpg",
+    "box_in_512_frame": [
+      0,
+      291,
+      250,
+      512
+    ],
+    "crop_scale": 2.048,
+    "src_w": 256.0
+  },
+  "other_002_noisy_76_png.rf.9f9e23bdeced6df52374c7737512da66.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\heldout_split\\noisy_76_png.rf.9f9e23bdeced6df52374c7737512da66.jpg",
+    "box_in_512_frame": [
+      0,
+      267,
+      282,
+      512
+    ],
+    "crop_scale": 1.8156028368794326,
+    "src_w": 256.0
+  },
+  "other_003_noisy_91_png.rf.d7d5f5398f1556d94b76d68aa23af7b8.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\heldout_split\\noisy_91_png.rf.d7d5f5398f1556d94b76d68aa23af7b8.jpg",
+    "box_in_512_frame": [
+      0,
+      272,
+      278,
+      512
+    ],
+    "crop_scale": 1.841726618705036,
+    "src_w": 256.0
+  },
+  "other_004_original_80_png.rf.8e1729af82c7741d49e424c0c9e448b1.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\heldout_split\\original_80_png.rf.8e1729af82c7741d49e424c0c9e448b1.jpg",
+    "box_in_512_frame": [
+      0,
+      269,
+      278,
+      512
+    ],
+    "crop_scale": 1.841726618705036,
+    "src_w": 256.0
+  },
+  "other_005_transformed_flipped_51_png.rf.04b0712da2a019cf190e28047bb50c30.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\heldout_split\\transformed_flipped_51_png.rf.04b0712da2a019cf190e28047bb50c30.jpg",
+    "box_in_512_frame": [
+      0,
+      235,
+      251,
+      512
+    ],
+    "crop_scale": 2.039840637450199,
+    "src_w": 256.0
+  },
+  "other_006_noisy_111_png.rf.85a2d1e7778e5bed079ade5f3c41112a.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\noisy_111_png.rf.85a2d1e7778e5bed079ade5f3c41112a.jpg",
+    "box_in_512_frame": [
+      0,
+      298,
+      280,
+      512
+    ],
+    "crop_scale": 1.8285714285714285,
+    "src_w": 256.0
+  },
+  "other_006_noisy_49_png.rf.e8ea72636886a59d098442da638f2c56.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\noisy_49_png.rf.e8ea72636886a59d098442da638f2c56.jpg",
+    "box_in_512_frame": [
+      0,
+      0,
+      245,
+      286
+    ],
+    "crop_scale": 2.089795918367347,
+    "src_w": 256.0
+  },
+  "other_007_DSC_3170_FB_4320_224x224_SSR_331x331_JPG.rf.530b33c1b265efdc24991fb1515d6c52.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\DSC_3170_FB_4320_224x224_SSR_331x331_JPG.rf.530b33c1b265efdc24991fb1515d6c52.jpg",
+    "box_in_512_frame": [
+      331,
+      420,
+      468,
+      505
+    ],
+    "crop_scale": 3.7372262773722627,
+    "src_w": 331.0
+  },
+  "other_007_original_84_png.rf.026c1196fe790beaa6e06ae3bb77e25f.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\original_84_png.rf.026c1196fe790beaa6e06ae3bb77e25f.jpg",
+    "box_in_512_frame": [
+      0,
+      0,
+      250,
+      277
+    ],
+    "crop_scale": 2.048,
+    "src_w": 256.0
+  },
+  "other_008_flipped_52_png.rf.65dd727d57aa78ab40f088670c820fdf.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\flipped_52_png.rf.65dd727d57aa78ab40f088670c820fdf.jpg",
+    "box_in_512_frame": [
+      266,
+      0,
+      512,
+      271
+    ],
+    "crop_scale": 2.0813008130081303,
+    "src_w": 256.0
+  },
+  "other_008_transformed_original_104_png.rf.3beff2f9c18f51a6c956358fbb54a65e.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\transformed_original_104_png.rf.3beff2f9c18f51a6c956358fbb54a65e.jpg",
+    "box_in_512_frame": [
+      0,
+      229,
+      282,
+      512
+    ],
+    "crop_scale": 1.8156028368794326,
+    "src_w": 256.0
+  },
+  "other_009_noisy_27_png.rf.4663d99e570aeaace4ec58ddc3de4253.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\noisy_27_png.rf.4663d99e570aeaace4ec58ddc3de4253.jpg",
+    "box_in_512_frame": [
+      0,
+      298,
+      279,
+      512
+    ],
+    "crop_scale": 1.8351254480286738,
+    "src_w": 256.0
+  },
+  "other_009_noisy_95_png.rf.712cafc243d1ad81ca853ee6291be00e.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\noisy_95_png.rf.712cafc243d1ad81ca853ee6291be00e.jpg",
+    "box_in_512_frame": [
+      0,
+      264,
+      248,
+      512
+    ],
+    "crop_scale": 2.064516129032258,
+    "src_w": 256.0
+  },
+  "other_010_flipped_52_png.rf.65dd727d57aa78ab40f088670c820fdf.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\flipped_52_png.rf.65dd727d57aa78ab40f088670c820fdf.jpg",
+    "box_in_512_frame": [
+      266,
+      0,
+      512,
+      271
+    ],
+    "crop_scale": 2.0813008130081303,
+    "src_w": 256.0
+  },
+  "other_010_original_81_png.rf.07de75bd1506628ac83d8163d0d6ec37.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\original_81_png.rf.07de75bd1506628ac83d8163d0d6ec37.jpg",
+    "box_in_512_frame": [
+      0,
+      266,
+      279,
+      512
+    ],
+    "crop_scale": 1.8351254480286738,
+    "src_w": 256.0
+  },
+  "other_011_noisy_55_png.rf.c1eb9b8dcffcdcb116ede09da7818d34.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\noisy_55_png.rf.c1eb9b8dcffcdcb116ede09da7818d34.jpg",
+    "box_in_512_frame": [
+      0,
+      0,
+      218,
+      281
+    ],
+    "crop_scale": 2.3486238532110093,
+    "src_w": 256.0
+  },
+  "other_011_original_95_png.rf.2852e46bf0a22ed13339eabe3255e9b1.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\original_95_png.rf.2852e46bf0a22ed13339eabe3255e9b1.jpg",
+    "box_in_512_frame": [
+      0,
+      266,
+      248,
+      512
+    ],
+    "crop_scale": 2.064516129032258,
+    "src_w": 256.0
+  },
+  "other_012_noisy_116_png.rf.efc23bfa514cc70069befc4eff6906a8.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\noisy_116_png.rf.efc23bfa514cc70069befc4eff6906a8.jpg",
+    "box_in_512_frame": [
+      0,
+      266,
+      250,
+      512
+    ],
+    "crop_scale": 2.048,
+    "src_w": 256.0
+  },
+  "other_012_original_37_png.rf.86408a97c4b267a220a058dd6b04b1f3.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\original_37_png.rf.86408a97c4b267a220a058dd6b04b1f3.jpg",
+    "box_in_512_frame": [
+      0,
+      234,
+      247,
+      512
+    ],
+    "crop_scale": 2.0728744939271255,
+    "src_w": 256.0
+  },
+  "other_013_original_126_png.rf.275c7f467600f6a34f8f3baf125f3055.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\original_126_png.rf.275c7f467600f6a34f8f3baf125f3055.jpg",
+    "box_in_512_frame": [
+      0,
+      0,
+      243,
+      255
+    ],
+    "crop_scale": 2.1069958847736627,
+    "src_w": 256.0
+  },
+  "other_014_noisy_27_png.rf.4663d99e570aeaace4ec58ddc3de4253.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\noisy_27_png.rf.4663d99e570aeaace4ec58ddc3de4253.jpg",
+    "box_in_512_frame": [
+      0,
+      298,
+      279,
+      512
+    ],
+    "crop_scale": 1.8351254480286738,
+    "src_w": 256.0
+  },
+  "other_014_transformed_original_80_png.rf.1eb3bc773ccfde752de3965c290d229e.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\transformed_original_80_png.rf.1eb3bc773ccfde752de3965c290d229e.jpg",
+    "box_in_512_frame": [
+      0,
+      268,
+      278,
+      512
+    ],
+    "crop_scale": 1.841726618705036,
+    "src_w": 256.0
+  },
+  "other_015_flipped_92_png.rf.a0e72091ef995997383a6b153d3733fc.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\flipped_92_png.rf.a0e72091ef995997383a6b153d3733fc.jpg",
+    "box_in_512_frame": [
+      237,
+      238,
+      512,
+      512
+    ],
+    "crop_scale": 1.8618181818181818,
+    "src_w": 256.0
+  },
+  "other_015_noisy_20_png.rf.25fc96fd2f86fc2763b0d2b0f32501d3.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\noisy_20_png.rf.25fc96fd2f86fc2763b0d2b0f32501d3.jpg",
+    "box_in_512_frame": [
+      0,
+      297,
+      280,
+      512
+    ],
+    "crop_scale": 1.8285714285714285,
+    "src_w": 256.0
+  },
+  "other_016_transformed_flipped_128_png.rf.61731a8b02d67988b9cde30c6ef3b963.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\transformed_flipped_128_png.rf.61731a8b02d67988b9cde30c6ef3b963.jpg",
+    "box_in_512_frame": [
+      265,
+      256,
+      512,
+      512
+    ],
+    "crop_scale": 2.0728744939271255,
+    "src_w": 256.0
+  },
+  "other_016_transformed_flipped_129_png.rf.b8c4b9ba75fc817a7b98d65a83038c57.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\transformed_flipped_129_png.rf.b8c4b9ba75fc817a7b98d65a83038c57.jpg",
+    "box_in_512_frame": [
+      266,
+      0,
+      512,
+      276
+    ],
+    "crop_scale": 2.0813008130081303,
+    "src_w": 256.0
+  },
+  "other_017_noisy_115_png.rf.c6157684731a5aaa6b6833dda92636d3.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\noisy_115_png.rf.c6157684731a5aaa6b6833dda92636d3.jpg",
+    "box_in_512_frame": [
+      0,
+      290,
+      285,
+      512
+    ],
+    "crop_scale": 1.7964912280701755,
+    "src_w": 256.0
+  },
+  "other_017_noisy_92_png.rf.ce88ffc5f80429c508c1aca5a01a45de.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\noisy_92_png.rf.ce88ffc5f80429c508c1aca5a01a45de.jpg",
+    "box_in_512_frame": [
+      0,
+      235,
+      272,
+      512
+    ],
+    "crop_scale": 1.8823529411764706,
+    "src_w": 256.0
+  },
+  "other_018_original_130_png.rf.734ea53b2b88d0123dcb7c9f12387f12.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\original_130_png.rf.734ea53b2b88d0123dcb7c9f12387f12.jpg",
+    "box_in_512_frame": [
+      0,
+      0,
+      247,
+      303
+    ],
+    "crop_scale": 2.0728744939271255,
+    "src_w": 256.0
+  },
+  "other_018_transformed_flipped_20_png.rf.88cc8d1411001df0f2b98755dbe93d65.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\transformed_flipped_20_png.rf.88cc8d1411001df0f2b98755dbe93d65.jpg",
+    "box_in_512_frame": [
+      238,
+      298,
+      512,
+      512
+    ],
+    "crop_scale": 1.8686131386861313,
+    "src_w": 256.0
+  },
+  "other_019_original_104_png.rf.81ad5ffccc9cc4a1edbeaaaceb7bcffe.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\original_104_png.rf.81ad5ffccc9cc4a1edbeaaaceb7bcffe.jpg",
+    "box_in_512_frame": [
+      0,
+      229,
+      282,
+      512
+    ],
+    "crop_scale": 1.8156028368794326,
+    "src_w": 256.0
+  },
+  "other_019_transformed_original_55_png.rf.9ff99e42eb9861503deabb335d7fa1c9.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\transformed_original_55_png.rf.9ff99e42eb9861503deabb335d7fa1c9.jpg",
+    "box_in_512_frame": [
+      272,
+      208,
+      512,
+      512
+    ],
+    "crop_scale": 2.1333333333333333,
+    "src_w": 256.0
+  },
+  "other_020_flipped_49_png.rf.b598a394685fdc977340f98987d72af3.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\flipped_49_png.rf.b598a394685fdc977340f98987d72af3.jpg",
+    "box_in_512_frame": [
+      267,
+      0,
+      512,
+      286
+    ],
+    "crop_scale": 2.089795918367347,
+    "src_w": 256.0
+  },
+  "other_020_noisy_14_png.rf.72d46434b42091f7af8ec9835226b3e9.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\noisy_14_png.rf.72d46434b42091f7af8ec9835226b3e9.jpg",
+    "box_in_512_frame": [
+      0,
+      299,
+      284,
+      512
+    ],
+    "crop_scale": 1.8028169014084507,
+    "src_w": 256.0
+  },
+  "other_021_transformed_original_52_png.rf.426e53ad8978baad9b4fc199debe6e4b.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\transformed_original_52_png.rf.426e53ad8978baad9b4fc199debe6e4b.jpg",
+    "box_in_512_frame": [
+      0,
+      0,
+      218,
+      248
+    ],
+    "crop_scale": 2.3486238532110093,
+    "src_w": 256.0
+  },
+  "other_021_transformed_original_58_png.rf.38d85fbc2dd55bfa697639d05068709a.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\transformed_original_58_png.rf.38d85fbc2dd55bfa697639d05068709a.jpg",
+    "box_in_512_frame": [
+      0,
+      0,
+      191,
+      196
+    ],
+    "crop_scale": 2.680628272251309,
+    "src_w": 256.0
+  },
+  "other_022_transformed_flipped_55_png.rf.55d8e595b3db25bde53c4c7fb6721f8c.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\transformed_flipped_55_png.rf.55d8e595b3db25bde53c4c7fb6721f8c.jpg",
+    "box_in_512_frame": [
+      0,
+      232,
+      218,
+      512
+    ],
+    "crop_scale": 2.3486238532110093,
+    "src_w": 256.0
+  },
+  "other_022_transformed_original_76_png.rf.947b3081cb9090aa9d0afbcd7c56a262.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\transformed_original_76_png.rf.947b3081cb9090aa9d0afbcd7c56a262.jpg",
+    "box_in_512_frame": [
+      0,
+      264,
+      282,
+      512
+    ],
+    "crop_scale": 1.8156028368794326,
+    "src_w": 256.0
+  },
+  "other_023_noisy_116_png.rf.efc23bfa514cc70069befc4eff6906a8.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\noisy_116_png.rf.efc23bfa514cc70069befc4eff6906a8.jpg",
+    "box_in_512_frame": [
+      0,
+      266,
+      250,
+      512
+    ],
+    "crop_scale": 2.048,
+    "src_w": 256.0
+  },
+  "other_023_noisy_49_png.rf.e8ea72636886a59d098442da638f2c56.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\noisy_49_png.rf.e8ea72636886a59d098442da638f2c56.jpg",
+    "box_in_512_frame": [
+      0,
+      0,
+      245,
+      286
+    ],
+    "crop_scale": 2.089795918367347,
+    "src_w": 256.0
+  },
+  "other_024_noisy_126_png.rf.234e1d96fd29e96aec476e0b0696c338.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\noisy_126_png.rf.234e1d96fd29e96aec476e0b0696c338.jpg",
+    "box_in_512_frame": [
+      0,
+      0,
+      243,
+      255
+    ],
+    "crop_scale": 2.1069958847736627,
+    "src_w": 256.0
+  },
+  "other_024_transformed_original_58_png.rf.38d85fbc2dd55bfa697639d05068709a.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\transformed_original_58_png.rf.38d85fbc2dd55bfa697639d05068709a.jpg",
+    "box_in_512_frame": [
+      0,
+      0,
+      191,
+      196
+    ],
+    "crop_scale": 2.680628272251309,
+    "src_w": 256.0
+  },
+  "other_025_flipped_14_png.rf.b84be3071a14a71eb9be18dcec30445c.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\flipped_14_png.rf.b84be3071a14a71eb9be18dcec30445c.jpg",
+    "box_in_512_frame": [
+      266,
+      299,
+      512,
+      512
+    ],
+    "crop_scale": 2.0813008130081303,
+    "src_w": 256.0
+  },
+  "other_025_original_97_png.rf.335bcdc55b230e07d78de73ecab764c4.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\original_97_png.rf.335bcdc55b230e07d78de73ecab764c4.jpg",
+    "box_in_512_frame": [
+      0,
+      298,
+      276,
+      512
+    ],
+    "crop_scale": 1.855072463768116,
+    "src_w": 256.0
+  },
+  "other_026_noisy_79_png.rf.c22628101465cb6cffdd09fcdf441e01.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\noisy_79_png.rf.c22628101465cb6cffdd09fcdf441e01.jpg",
+    "box_in_512_frame": [
+      0,
+      270,
+      281,
+      512
+    ],
+    "crop_scale": 1.8220640569395017,
+    "src_w": 256.0
+  },
+  "other_026_original_58_png.rf.a7228c983c760b34a15ff342913746eb.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\original_58_png.rf.a7228c983c760b34a15ff342913746eb.jpg",
+    "box_in_512_frame": [
+      0,
+      0,
+      281,
+      316
+    ],
+    "crop_scale": 1.8220640569395017,
+    "src_w": 256.0
+  },
+  "other_027_noisy_14_png.rf.72d46434b42091f7af8ec9835226b3e9.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\noisy_14_png.rf.72d46434b42091f7af8ec9835226b3e9.jpg",
+    "box_in_512_frame": [
+      0,
+      299,
+      284,
+      512
+    ],
+    "crop_scale": 1.8028169014084507,
+    "src_w": 256.0
+  },
+  "other_027_noisy_81_png.rf.af86908812eaa36830b028a831036cca.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\noisy_81_png.rf.af86908812eaa36830b028a831036cca.jpg",
+    "box_in_512_frame": [
+      0,
+      296,
+      278,
+      512
+    ],
+    "crop_scale": 1.841726618705036,
+    "src_w": 256.0
+  },
+  "other_028_transformed_flipped_82_png.rf.280bacb6a61af19f18b9c06616b632f4.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\transformed_flipped_82_png.rf.280bacb6a61af19f18b9c06616b632f4.jpg",
+    "box_in_512_frame": [
+      399,
+      428,
+      512,
+      512
+    ],
+    "crop_scale": 4.530973451327434,
+    "src_w": 256.0
+  },
+  "other_028_transformed_original_17_png.rf.dee5498398c834eb0ffd4ab75f8e4436.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\transformed_original_17_png.rf.dee5498398c834eb0ffd4ab75f8e4436.jpg",
+    "box_in_512_frame": [
+      0,
+      265,
+      249,
+      512
+    ],
+    "crop_scale": 2.0562248995983934,
+    "src_w": 256.0
+  },
+  "other_029_DSC_3170_FB_4320_224x224_SSR_331x331_JPG.rf.530b33c1b265efdc24991fb1515d6c52.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\DSC_3170_FB_4320_224x224_SSR_331x331_JPG.rf.530b33c1b265efdc24991fb1515d6c52.jpg",
+    "box_in_512_frame": [
+      331,
+      420,
+      468,
+      505
+    ],
+    "crop_scale": 3.7372262773722627,
+    "src_w": 331.0
+  },
+  "other_029_original_81_png.rf.07de75bd1506628ac83d8163d0d6ec37.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\original_81_png.rf.07de75bd1506628ac83d8163d0d6ec37.jpg",
+    "box_in_512_frame": [
+      0,
+      266,
+      279,
+      512
+    ],
+    "crop_scale": 1.8351254480286738,
+    "src_w": 256.0
+  },
+  "other_030_DSC_3170_FB_2320_224x224_HF_331x331_JPG.rf.da43b27bbd7540675300f71e59990544.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\DSC_3170_FB_2320_224x224_HF_331x331_JPG.rf.da43b27bbd7540675300f71e59990544.jpg",
+    "box_in_512_frame": [
+      84,
+      452,
+      220,
+      512
+    ],
+    "crop_scale": 3.764705882352941,
+    "src_w": 331.0
+  },
+  "other_030_original_55_png.rf.69e5df1437c78bfeeec37e890c962115.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\original_55_png.rf.69e5df1437c78bfeeec37e890c962115.jpg",
+    "box_in_512_frame": [
+      0,
+      0,
+      218,
+      280
+    ],
+    "crop_scale": 2.3486238532110093,
+    "src_w": 256.0
+  },
+  "other_031_DSC_3170_FA_15400_224x224_HF_GN_331x331_JPG.rf.0ccbcc564d397510e2dcca9717e8f330.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\DSC_3170_FA_15400_224x224_HF_GN_331x331_JPG.rf.0ccbcc564d397510e2dcca9717e8f330.jpg",
+    "box_in_512_frame": [
+      28,
+      399,
+      160,
+      487
+    ],
+    "crop_scale": 3.878787878787879,
+    "src_w": 331.0
+  },
+  "other_031_noisy_122_png.rf.d508fed39e1d1d7e77ec2a6a414f79d7.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\noisy_122_png.rf.d508fed39e1d1d7e77ec2a6a414f79d7.jpg",
+    "box_in_512_frame": [
+      0,
+      0,
+      243,
+      318
+    ],
+    "crop_scale": 2.1069958847736627,
+    "src_w": 256.0
+  },
+  "other_032_flipped_80_png.rf.509b16fdc1cebd5353ef893f4e222967.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\flipped_80_png.rf.509b16fdc1cebd5353ef893f4e222967.jpg",
+    "box_in_512_frame": [
+      234,
+      268,
+      512,
+      512
+    ],
+    "crop_scale": 1.841726618705036,
+    "src_w": 256.0
+  },
+  "other_032_original_128_png.rf.70d6acd29ffde9c375ae08cc9b931b48.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\original_128_png.rf.70d6acd29ffde9c375ae08cc9b931b48.jpg",
+    "box_in_512_frame": [
+      0,
+      252,
+      251,
+      512
+    ],
+    "crop_scale": 2.039840637450199,
+    "src_w": 256.0
+  },
+  "other_033_noisy_42_png.rf.23231e06c382769ce0c1e91de511fd05.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\noisy_42_png.rf.23231e06c382769ce0c1e91de511fd05.jpg",
+    "box_in_512_frame": [
+      0,
+      228,
+      279,
+      512
+    ],
+    "crop_scale": 1.8351254480286738,
+    "src_w": 256.0
+  },
+  "other_033_original_40_png.rf.36a7874fea6c0cb08a7b773ce09903c3.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\original_40_png.rf.36a7874fea6c0cb08a7b773ce09903c3.jpg",
+    "box_in_512_frame": [
+      0,
+      0,
+      249,
+      318
+    ],
+    "crop_scale": 2.0562248995983934,
+    "src_w": 256.0
+  },
+  "other_034_transformed_flipped_42_png.rf.5eab3f93bd76dd21547a00f8abe41cdf.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\transformed_flipped_42_png.rf.5eab3f93bd76dd21547a00f8abe41cdf.jpg",
+    "box_in_512_frame": [
+      306,
+      337,
+      512,
+      512
+    ],
+    "crop_scale": 2.4854368932038833,
+    "src_w": 256.0
+  },
+  "other_035_original_95_png.rf.2852e46bf0a22ed13339eabe3255e9b1.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\original_95_png.rf.2852e46bf0a22ed13339eabe3255e9b1.jpg",
+    "box_in_512_frame": [
+      0,
+      266,
+      248,
+      512
+    ],
+    "crop_scale": 2.064516129032258,
+    "src_w": 256.0
+  },
+  "other_036_transformed_flipped_35_png.rf.52c6c55568435a57cc186593b7b5aa3f.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\transformed_flipped_35_png.rf.52c6c55568435a57cc186593b7b5aa3f.jpg",
+    "box_in_512_frame": [
+      392,
+      399,
+      498,
+      505
+    ],
+    "crop_scale": 4.830188679245283,
+    "src_w": 256.0
+  },
+  "other_037_noisy_82_png.rf.635446d0f2443a57f4eb4dd2c728497a.png": {
+    "source_path": "C:\\Users\\bcura\\AI PostGrad Project\\Saqqara-Marine-Anomaly-Detection\\Stage_01\\data\\normal_sea\\baseline_split\\noisy_82_png.rf.635446d0f2443a57f4eb4dd2c728497a.jpg",
+    "box_in_512_frame": [
+      0,
+      296,
+      281,
+      512
+    ],
+    "crop_scale": 1.8220640569395017,
+    "src_w": 256.0
+  }
+}
