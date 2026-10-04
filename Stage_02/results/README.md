@@ -45,3 +45,23 @@ Raw outputs are in `results/expanded_run/` and `results/baseline_rerun/`.
 1. Run each setup with 3 random seeds and compare the averages.
 2. Grow the test set (more double-annotated images) so the comparison is less noisy.
 3. Check tuna annotation consistency against the baseline annotations.
+
+
+## Update, 5 Oct 2026: re-annotated run (v2)
+
+The same 80 images were annotated again by hand in a new CVAT project (`Stage2_anomaly_v2`) and the notebook was re-run. `prawn_aug_012` was left out because its source photo (WA0014) is a byte-identical copy of test image WA0047. The same 10 images were excluded by the leakage guard. Training: 37 prawn + 63 tuna + 437 negatives.
+
+| | Baseline re-run | Expanded v1 | Expanded v2 |
+|---|---|---|---|
+| Prawn IoU | 51.8% | 52.4% | 46.1% |
+| Tuna IoU | 79.4% | 74.8% | 76.2% |
+| Best checkpoint | epoch 20 | epoch 30 | epoch 10 |
+| Unseen prawn masked | 41/57 | 38/47 | 39/47 |
+| Unseen tuna masked (of flagged) | 167/191 | 140/187 | 159/185 |
+| Plain sea wrongly masked | 10/50 | 5/50 | 3/50 |
+
+- Prawn: the clear images improved (WA0007 84.8%, WA0076 83.1%), but four faint ones dropped (WA0041 22%, WA0042 20%, WA0005 34%, WA0002 0%), which pulls the mean down.
+- Removing prawn_aug_012 did not change WA0047 (46.4% vs 46.5% in v1).
+- Checkpoints swung again: prawn 46.1 / 37.0 / 44.3% at epochs 10 / 20 / 30.
+- Conclusion: no clear improvement from the new data yet. Run-to-run variation (4–9 points) is as large as the effect. Next: 3 seeds per setup and a larger prawn test set.
+
