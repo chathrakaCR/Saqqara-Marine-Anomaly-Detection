@@ -12,19 +12,19 @@
     ],
     "values": [
       [
-        23,
+        27,
         2,
-        7
+        3
       ],
       [
         0,
-        85,
-        58
+        135,
+        8
       ],
       [
         0,
-        0,
-        20
+        1,
+        19
       ]
     ]
   },
@@ -32,26 +32,26 @@
     "prawn": {
       "images": 32,
       "stage1_flagged": 32,
-      "stage2_mask": 25,
-      "track_a_measured": 25,
-      "final_prawn_or_tuna": 25
+      "stage2_mask": 29,
+      "track_a_measured": 29,
+      "final_prawn_or_tuna": 29
     },
     "tuna": {
       "images": 143,
       "stage1_flagged": 135,
-      "stage2_mask": 89,
-      "track_a_measured": 86,
-      "final_prawn_or_tuna": 85
+      "stage2_mask": 135,
+      "track_a_measured": 135,
+      "final_prawn_or_tuna": 135
     },
     "clean": {
       "images": 20,
       "stage1_flagged": 8,
-      "stage2_mask": 0,
-      "track_a_measured": 0,
-      "final_prawn_or_tuna": 0
+      "stage2_mask": 1,
+      "track_a_measured": 1,
+      "final_prawn_or_tuna": 1
     }
   },
-  "overall_correct": 128,
+  "overall_correct": 181,
   "overall_n": 195,
   "set_aside_as_lookalikes": 555,
   "crashed": 0,

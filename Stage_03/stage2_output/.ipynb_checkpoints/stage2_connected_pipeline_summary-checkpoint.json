@@ -1,0 +1,20 @@
+[
+  {
+    "pool": "Prawn",
+    "n_images": 57,
+    "stage1_flag_rate": 1.0,
+    "stage2_nonempty_rate_of_flagged": 0.8771929824561403
+  },
+  {
+    "pool": "Tuna",
+    "n_images": 200,
+    "stage1_flag_rate": 0.96,
+    "stage2_nonempty_rate_of_flagged": 0.65625
+  },
+  {
+    "pool": "Negative controls",
+    "n_images": 50,
+    "stage1_flag_rate": 0.62,
+    "stage2_nonempty_rate_of_flagged": 0.06451612903225806
+  }
+]

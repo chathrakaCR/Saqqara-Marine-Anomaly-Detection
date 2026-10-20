@@ -1,0 +1,6 @@
+path: C:/Users/bcura/AI PostGrad Project/Saqqara-Marine-Anomaly-Detection/Stage_03/cetacean_yolo
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: cetacean

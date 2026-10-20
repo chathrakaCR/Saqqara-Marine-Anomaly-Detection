@@ -1,0 +1,94 @@
+{
+  "confusion_matrix": {
+    "rows_true": [
+      "prawn",
+      "tuna",
+      "cetacean",
+      "clean"
+    ],
+    "cols_predicted": [
+      "prawn",
+      "tuna",
+      "cetacean",
+      "none"
+    ],
+    "values": [
+      [
+        26,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        135,
+        0,
+        8
+      ],
+      [
+        0,
+        0,
+        58,
+        3
+      ],
+      [
+        0,
+        0,
+        1,
+        19
+      ]
+    ]
+  },
+  "funnel": {
+    "prawn": {
+      "images": 32,
+      "stage1_flagged": 32,
+      "stage2_mask": 29,
+      "track_b_scored": 32,
+      "final_not_none": 30
+    },
+    "tuna": {
+      "images": 143,
+      "stage1_flagged": 135,
+      "stage2_mask": 135,
+      "track_b_scored": 135,
+      "final_not_none": 135
+    },
+    "cetacean": {
+      "images": 61,
+      "stage1_flagged": 61,
+      "stage2_mask": 35,
+      "track_b_scored": 61,
+      "final_not_none": 58
+    },
+    "clean": {
+      "images": 20,
+      "stage1_flagged": 8,
+      "stage2_mask": 1,
+      "track_b_scored": 8,
+      "final_not_none": 1
+    }
+  },
+  "overall_correct": 238,
+  "overall_n": 256,
+  "cetacean_empty_answers": {},
+  "set_aside_as_lookalikes": 580,
+  "crashed": 0,
+  "settings": {
+    "track_b_box_source": "detector",
+    "track_b_tau": 0.5,
+    "stage2_route": "whole_frame",
+    "stage2_whole_frame_prob": 0.35,
+    "track_a_guard": {
+      "prob": 0.35,
+      "min_px": 80,
+      "dilation": 2,
+      "crop_pad": 20,
+      "ring_px": 25,
+      "min_native_px": 24,
+      "min_native_mask_px": 30
+    }
+  },
+  "track_a_feature_set": "everything_native",
+  "track_b_feature_set": "tint_robust"
+}
