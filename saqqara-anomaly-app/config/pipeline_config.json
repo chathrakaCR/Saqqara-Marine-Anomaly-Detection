@@ -1,0 +1,54 @@
+{
+  "_about": "Final settings of the P000285DS pipeline, copied from Stage_01_Pipeline_FINAL_v2 and Stage_1234_Integrated_Pipeline_Test (detector v2). Change them only if you re-validate.",
+
+  "models": {
+    "stage1_bucket_ref": "models/stage1_bucket_ref.pkl",
+    "segformer_checkpoint": "models/segformer_b0_epoch30.pt",
+    "track_a_bundle": "models/track_a_model.pkl",
+    "detector_onnx": "models/cetacean_detector_v2.onnx",
+    "detector_info": "models/cetacean_detector_v2.json"
+  },
+
+  "stage1": {
+    "img_size": [512, 512],
+    "n_segments": 250,
+    "compactness": 20,
+    "glcm_levels": 32,
+    "glint_thresh": 220,
+    "n_buckets": 3,
+    "bucket_edges": [98.48828532025743, 132.1124305725098],
+    "z_thresh": 2.5,
+    "min_features_flagged": 2,
+    "min_component_area_px": 2000,
+    "local_z_thresh": 2.5,
+    "min_area_local": 1000,
+    "dilation_iters": 2
+  },
+
+  "stage2": {
+    "route": "whole_frame",
+    "prob_threshold": 0.35,
+    "min_mask_pixels": 80,
+    "keep_largest_blob": true,
+    "crop_padding_px": 20
+  },
+
+  "track_a": {
+    "ring_px": 25,
+    "min_native_px": 24,
+    "min_native_mask_px": 30
+  },
+
+  "track_b": {
+    "img_size": 352,
+    "confidence_cutoff": 0.10,
+    "min_box_confidence": 0.05,
+    "nms_iou": 0.7,
+    "max_boxes": 300
+  },
+
+  "video": {
+    "sample_every_seconds": 1.0,
+    "event_gap_seconds": 2.0
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "confusion": {
+    "prawn": {
+      "prawn": 13,
+      "tuna": 0,
+      "cetacean": 2,
+      "none": 0
+    },
+    "tuna": {
+      "prawn": 0,
+      "tuna": 14,
+      "cetacean": 0,
+      "none": 1
+    },
+    "cetacean": {
+      "prawn": 0,
+      "tuna": 0,
+      "cetacean": 13,
+      "none": 2
+    },
+    "none": {
+      "prawn": 0,
+      "tuna": 0,
+      "cetacean": 0,
+      "none": 15
+    }
+  },
+  "accuracy": 0.9166666666666666,
+  "per_class": {
+    "prawn": {
+      "precision": 1.0,
+      "recall": 0.867,
+      "f1": 0.929
+    },
+    "tuna": {
+      "precision": 1.0,
+      "recall": 0.933,
+      "f1": 0.966
+    },
+    "cetacean": {
+      "precision": 0.867,
+      "recall": 0.867,
+      "f1": 0.867
+    },
+    "none": {
+      "precision": 0.833,
+      "recall": 1.0,
+      "f1": 0.909
+    }
+  },
+  "frames": 60
+}

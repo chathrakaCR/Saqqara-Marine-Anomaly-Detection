@@ -1,0 +1,11 @@
+# torch is installed separately in the Dockerfile (CPU build). scikit-learn is pinned there via SKLEARN_VERSION.
+numpy>=1.26,<3
+scipy>=1.11
+opencv-python-headless>=4.9
+scikit-image>=0.22
+pillow>=10.0
+transformers>=4.40
+onnxruntime>=1.17
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9

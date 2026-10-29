@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marine Anomaly Detection</title>
+<style>
+:root{--bg:#f2f5f4;--panel:#fbfbf8;--ink:#0e2a3b;--text:#3d4a55;--muted:#6b7780;--line:#cad5d8;--accent:#1b7a78;--accent-soft:#e1ebea;
+--prawn:#2a78d6;--tuna:#eb6834;--cetacean:#3c9a3c;--none:#8a9399;--bad:#b3261e}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1a20;--panel:#16242c;--ink:#e6eef0;--text:#c3cfd4;--muted:#8d9ba2;--line:#2b3c45;--accent:#3fb3ad;--accent-soft:#1d3436}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+header{padding:20px 24px;border-bottom:1px solid var(--line)}h1{margin:0;font-size:20px;color:var(--ink)}header p{margin:2px 0 0;color:var(--muted);font-size:13px}
+main{display:grid;grid-template-columns:340px 1fr;gap:20px;padding:20px 24px;max-width:1400px}
+@media (max-width:900px){main{grid-template-columns:1fr;padding:16px}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+h2{font-size:15px;margin:0 0 12px;color:var(--ink)}label{display:block;font-size:13px;color:var(--muted);margin:10px 0 4px}
+input[type=text],input[type=number],input[type=file]{width:100%;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--text)}
+.row{display:flex;gap:10px}.row>div{flex:1}.check{display:flex;align-items:center;gap:8px;margin-top:10px;font-size:13px}
+button{margin-top:14px;width:100%;padding:10px;border:0;border-radius:8px;background:var(--accent);color:#fff;font-weight:600;cursor:pointer}
+button.secondary{background:transparent;color:var(--accent);border:1px solid var(--accent);width:auto;padding:6px 12px;margin:0}
+.status{font-size:13px;margin-top:10px;color:var(--muted)}.err{color:var(--bad)}
+.jobs{list-style:none;padding:0;margin:0}.jobs li{padding:10px;border-radius:8px;cursor:pointer;border:1px solid transparent}
+.jobs li:hover,.jobs li.sel{background:var(--accent-soft);border-color:var(--line)}.jobs .n{font-weight:600;color:var(--ink);word-break:break-all}.jobs .m{font-size:12px;color:var(--muted)}
+.bar{height:8px;border-radius:4px;background:var(--accent-soft);overflow:hidden;margin:10px 0}.bar>i{display:block;height:100%;background:var(--accent);width:0}
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:12px 0}@media (max-width:600px){.tiles{grid-template-columns:repeat(2,1fr)}}
+.tile{border-radius:10px;padding:10px 12px;background:var(--bg);border:1px solid var(--line)}.tile b{display:block;font-size:24px;color:var(--ink)}.tile span{font-size:12px;color:var(--muted)}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:middle}
+table{width:100%;border-collapse:collapse;font-size:13px}th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}th{color:var(--muted);font-weight:600}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;margin-top:12px}.gallery a{display:block}.gallery img{width:100%;border-radius:8px;border:1px solid var(--line)}
+.gallery .cap{font-size:12px;color:var(--muted)}.links a{margin-right:14px;color:var(--accent);font-size:13px}.empty{color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+<header><h1>Marine anomaly detection</h1><p>Stage 1 anomaly detector → cetacean detector → SegFormer mask → prawn / tuna / other</p></header>
+<main>
+<section>
+  <div class="card">
+    <h2>New analysis</h2>
+    <form id="f">
+      <label>Video file</label><input type="file" name="file" accept="video/*">
+      <label>…or stream URL (rtsp / http)</label><input type="text" name="url" placeholder="rtsp://host:8554/drone">
+      <div class="row">
+        <div><label>Analyse one frame every (s)</label><input type="number" name="every" value="1" min="0.04" step="any"></div>
+        <div><label>Stop after (s, 0 = end)</label><input type="number" name="max_seconds" value="0" min="0"></div>
+      </div>
+      <div class="check"><input type="checkbox" name="save_video" id="sv" checked><label for="sv" style="margin:0">Annotated video</label></div>
+      <div class="check"><input type="checkbox" name="save_frames" id="sf"><label for="sf" style="margin:0">Keep every extracted frame</label></div>
+      <button type="submit">Start</button>
+    </form>
+    <div class="status" id="health">Loading models…</div>
+  </div>
+  <div class="card" style="margin-top:20px"><h2>Runs</h2><ul class="jobs" id="jobs"><li class="empty">No runs yet</li></ul></div>
+</section>
+<section class="card" id="detail"><p class="empty">Start a run or pick one from the list.</p></section>
+</main>
+<script>
+const C={prawn:'var(--prawn)',tuna:'var(--tuna)',cetacean:'var(--cetacean)',none:'var(--none)'};
+let sel=null;
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+async function health(){try{const h=await (await fetch('/api/health')).json();const el=document.getElementById('health');
+ if(h.ready){el.textContent='Models ready · '+h.settings.device+' · detector cut-off '+h.settings.track_b.confidence_cutoff;el.className='status'}
+ else if(h.error){el.textContent=h.error;el.className='status err'} else setTimeout(health,2000)}catch(e){setTimeout(health,3000)}}
+document.getElementById('f').onsubmit=async e=>{e.preventDefault();const fd=new FormData(e.target);
+ fd.set('save_video',e.target.save_video.checked);fd.set('save_frames',e.target.save_frames.checked);
+ const r=await fetch('/api/jobs',{method:'POST',body:fd});const j=await r.json();
+ if(!r.ok){alert(j.detail||'Could not start');return}sel=j.id;e.target.reset();refresh()};
+async function refresh(){const jobs=await (await fetch('/api/jobs')).json();const ul=document.getElementById('jobs');
+ ul.innerHTML=jobs.length?jobs.map(j=>`<li class="${j.id===sel?'sel':''}" onclick="sel='${j.id}';refresh()"><div class="n">${esc(j.name)}</div><div class="m">${j.status} · ${j.done} frames</div></li>`).join(''):'<li class="empty">No runs yet</li>';
+ const j=jobs.find(x=>x.id===sel);if(j)show(j)}
+function show(j){const pct=j.total?Math.min(100,100*j.done/j.total):(j.status==='done'?100:0);const s=j.summary;const counts=s?s.counts:Object.assign({prawn:0,tuna:0,cetacean:0},j.counts);
+ const tiles=['prawn','tuna','cetacean'].map(k=>`<div class="tile"><b>${counts[k]||0}</b><span><i class="dot" style="background:${C[k]}"></i>${k} frames</span></div>`).join('')+
+  `<div class="tile"><b>${j.done}</b><span>frames analysed</span></div>`;
+ let h=`<h2>${esc(j.name)}</h2><div class="m">Status: <b>${j.status}</b>${j.total?` · ${j.done} / ${j.total}`:` · ${j.done} frames`}${j.last?` · last: ${j.last.time_s}s ${esc(j.last.label)}`:''}</div>
+ <div class="bar"><i style="width:${pct}%"></i></div>${j.error?`<p class="err">${esc(j.error)}</p>`:''}<div class="tiles">${tiles}</div>`;
+ if(j.status==='running'||j.status==='queued')h+=`<button class="secondary" onclick="fetch('/api/jobs/${j.id}/stop',{method:'POST'})">Stop</button>`;
+ const f=p=>`/api/jobs/${j.id}/files/${p}`;
+ if(s){h+=`<p class="links"><a href="${f('frames.csv')}">frames.csv</a><a href="${f('events.json')}">events.json</a><a href="${f('summary.json')}">summary.json</a>${j.save_video?`<a href="${f('annotated.mp4')}">annotated.mp4</a>`:''}</p>
+  <p class="m">${s.frames_flagged_by_stage1} of ${s.frames_analysed} frames flagged by Stage 1 · ${s.avg_ms_per_frame} ms per frame · ${s.seconds_taken} s total</p>`;
+  const ev=j.events||[];h+=`<h2 style="margin-top:16px">Sightings (${ev.length})</h2>`+(ev.length?`<table><tr><th>Answer</th><th>From</th><th>To</th><th>Frames</th><th>Best detector confidence</th></tr>`+
+  ev.map(e=>`<tr><td><i class="dot" style="background:${C[e.label]}"></i>${e.label}</td><td>${e.start_s.toFixed(1)} s</td><td>${e.end_s.toFixed(1)} s</td><td>${e.frames}</td><td>${e.best_confidence!=null?e.best_confidence.toFixed(2):'–'}</td></tr>`).join('')+'</table>'
+  :'<p class="empty">Nothing found in this video.</p>');
+  if(ev.length)h+=`<div class="gallery">`+ev.slice(0,60).map(e=>e.best_image?`<a href="${f(e.best_image)}" target="_blank"><img loading="lazy" src="${f(e.best_image)}"><div class="cap">${e.label} · ${e.start_s.toFixed(1)} s</div></a>`:'').join('')+`</div>`}
+ document.getElementById('detail').innerHTML=h}
+health();refresh();setInterval(refresh,2000);
+</script>
+</body>
+</html>

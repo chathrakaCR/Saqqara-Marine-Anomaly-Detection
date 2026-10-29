@@ -1,0 +1,282 @@
+[
+  {
+    "label": "prawn",
+    "start_s": 0.0,
+    "end_s": 0.0,
+    "frames": 1,
+    "best_confidence": null,
+    "best_image": "detections/frame_0000000_t000000.00_prawn.jpg"
+  },
+  {
+    "label": "tuna",
+    "start_s": 1.0,
+    "end_s": 1.0,
+    "frames": 1,
+    "best_confidence": null,
+    "best_image": "detections/frame_0000005_t000001.00_tuna.jpg"
+  },
+  {
+    "label": "cetacean",
+    "start_s": 2.0,
+    "end_s": 2.0,
+    "frames": 1,
+    "best_confidence": 0.7705,
+    "best_image": "detections/frame_0000010_t000002.00_cetacean.jpg"
+  },
+  {
+    "label": "prawn",
+    "start_s": 3.0,
+    "end_s": 4.0,
+    "frames": 2,
+    "best_confidence": null,
+    "best_image": "detections/frame_0000015_t000003.00_prawn.jpg"
+  },
+  {
+    "label": "tuna",
+    "start_s": 5.0,
+    "end_s": 5.0,
+    "frames": 1,
+    "best_confidence": null,
+    "best_image": "detections/frame_0000025_t000005.00_tuna.jpg"
+  },
+  {
+    "label": "cetacean",
+    "start_s": 6.0,
+    "end_s": 6.0,
+    "frames": 1,
+    "best_confidence": 0.9243,
+    "best_image": "detections/frame_0000030_t000006.00_cetacean.jpg"
+  },
+  {
+    "label": "prawn",
+    "start_s": 7.0,
+    "end_s": 7.0,
+    "frames": 1,
+    "best_confidence": null,
+    "best_image": "detections/frame_0000035_t000007.00_prawn.jpg"
+  },
+  {
+    "label": "tuna",
+    "start_s": 8.0,
+    "end_s": 8.0,
+    "frames": 1,
+    "best_confidence": null,
+    "best_image": "detections/frame_0000040_t000008.00_tuna.jpg"
+  },
+  {
+    "label": "cetacean",
+    "start_s": 9.0,
+    "end_s": 9.0,
+    "frames": 1,
+    "best_confidence": 0.7283,
+    "best_image": "detections/frame_0000045_t000009.00_cetacean.jpg"
+  },
+  {
+    "label": "tuna",
+    "start_s": 11.0,
+    "end_s": 11.0,
+    "frames": 1,
+    "best_confidence": null,
+    "best_image": "detections/frame_0000055_t000011.00_tuna.jpg"
+  },
+  {
+    "label": "prawn",
+    "start_s": 12.0,
+    "end_s": 12.0,
+    "frames": 1,
+    "best_confidence": null,
+    "best_image": "detections/frame_0000060_t000012.00_prawn.jpg"
+  },
+  {
+    "label": "tuna",
+    "start_s": 13.0,
+    "end_s": 13.0,
+    "frames": 1,
+    "best_confidence": null,
+    "best_image": "detections/frame_0000065_t000013.00_tuna.jpg"
+  },
+  {
+    "label": "tuna",
+    "start_s": 17.0,
+    "end_s": 19.0,
+    "frames": 2,
+    "best_confidence": null,
+    "best_image": "detections/frame_0000085_t000017.00_tuna.jpg"
+  },
+  {
+    "label": "prawn",
+    "start_s": 20.0,
+    "end_s": 20.0,
+    "frames": 1,
+    "best_confidence": null,
+    "best_image": "detections/frame_0000100_t000020.00_prawn.jpg"
+  },
+  {
+    "label": "cetacean",
+    "start_s": 21.0,
+    "end_s": 21.0,
+    "frames": 1,
+    "best_confidence": 0.8976,
+    "best_image": "detections/frame_0000105_t000021.00_cetacean.jpg"
+  },
+  {
+    "label": "prawn",
+    "start_s": 23.0,
+    "end_s": 23.0,
+    "frames": 1,
+    "best_confidence": null,
+    "best_image": "detections/frame_0000115_t000023.00_prawn.jpg"
+  },
+  {
+    "label": "cetacean",
+    "start_s": 24.0,
+    "end_s": 25.0,
+    "frames": 2,
+    "best_confidence": 0.8977,
+    "best_image": "detections/frame_0000120_t000024.00_cetacean.jpg"
+  },
+  {
+    "label": "tuna",
+    "start_s": 27.0,
+    "end_s": 27.0,
+    "frames": 1,
+    "best_confidence": null,
+    "best_image": "detections/frame_0000135_t000027.00_tuna.jpg"
+  },
+  {
+    "label": "cetacean",
+    "start_s": 28.0,
+    "end_s": 28.0,
+    "frames": 1,
+    "best_confidence": 0.5377,
+    "best_image": "detections/frame_0000140_t000028.00_cetacean.jpg"
+  },
+  {
+    "label": "tuna",
+    "start_s": 29.0,
+    "end_s": 29.0,
+    "frames": 1,
+    "best_confidence": null,
+    "best_image": "detections/frame_0000145_t000029.00_tuna.jpg"
+  },
+  {
+    "label": "prawn",
+    "start_s": 31.0,
+    "end_s": 33.0,
+    "frames": 2,
+    "best_confidence": null,
+    "best_image": "detections/frame_0000155_t000031.00_prawn.jpg"
+  },
+  {
+    "label": "tuna",
+    "start_s": 36.0,
+    "end_s": 36.0,
+    "frames": 1,
+    "best_confidence": null,
+    "best_image": "detections/frame_0000180_t000036.00_tuna.jpg"
+  },
+  {
+    "label": "prawn",
+    "start_s": 37.0,
+    "end_s": 37.0,
+    "frames": 1,
+    "best_confidence": null,
+    "best_image": "detections/frame_0000185_t000037.00_prawn.jpg"
+  },
+  {
+    "label": "cetacean",
+    "start_s": 38.0,
+    "end_s": 40.0,
+    "frames": 2,
+    "best_confidence": 0.8785,
+    "best_image": "detections/frame_0000190_t000038.00_cetacean.jpg"
+  },
+  {
+    "label": "prawn",
+    "start_s": 42.0,
+    "end_s": 42.0,
+    "frames": 1,
+    "best_confidence": null,
+    "best_image": "detections/frame_0000210_t000042.00_prawn.jpg"
+  },
+  {
+    "label": "tuna",
+    "start_s": 43.0,
+    "end_s": 43.0,
+    "frames": 1,
+    "best_confidence": null,
+    "best_image": "detections/frame_0000215_t000043.00_tuna.jpg"
+  },
+  {
+    "label": "cetacean",
+    "start_s": 45.0,
+    "end_s": 45.0,
+    "frames": 1,
+    "best_confidence": 0.1909,
+    "best_image": "detections/frame_0000225_t000045.00_cetacean.jpg"
+  },
+  {
+    "label": "prawn",
+    "start_s": 47.0,
+    "end_s": 47.0,
+    "frames": 1,
+    "best_confidence": null,
+    "best_image": "detections/frame_0000235_t000047.00_prawn.jpg"
+  },
+  {
+    "label": "cetacean",
+    "start_s": 49.0,
+    "end_s": 49.0,
+    "frames": 1,
+    "best_confidence": 0.1985,
+    "best_image": "detections/frame_0000245_t000049.00_cetacean.jpg"
+  },
+  {
+    "label": "prawn",
+    "start_s": 50.0,
+    "end_s": 50.0,
+    "frames": 1,
+    "best_confidence": null,
+    "best_image": "detections/frame_0000250_t000050.00_prawn.jpg"
+  },
+  {
+    "label": "cetacean",
+    "start_s": 51.0,
+    "end_s": 51.0,
+    "frames": 1,
+    "best_confidence": 0.4204,
+    "best_image": "detections/frame_0000255_t000051.00_cetacean.jpg"
+  },
+  {
+    "label": "tuna",
+    "start_s": 52.0,
+    "end_s": 52.0,
+    "frames": 1,
+    "best_confidence": null,
+    "best_image": "detections/frame_0000260_t000052.00_tuna.jpg"
+  },
+  {
+    "label": "cetacean",
+    "start_s": 53.0,
+    "end_s": 53.0,
+    "frames": 1,
+    "best_confidence": 0.6566,
+    "best_image": "detections/frame_0000265_t000053.00_cetacean.jpg"
+  },
+  {
+    "label": "tuna",
+    "start_s": 54.0,
+    "end_s": 55.0,
+    "frames": 2,
+    "best_confidence": null,
+    "best_image": "detections/frame_0000270_t000054.00_tuna.jpg"
+  },
+  {
+    "label": "cetacean",
+    "start_s": 56.0,
+    "end_s": 57.0,
+    "frames": 2,
+    "best_confidence": 0.8808,
+    "best_image": "detections/frame_0000280_t000056.00_cetacean.jpg"
+  }
+]

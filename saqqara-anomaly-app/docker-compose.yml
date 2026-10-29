@@ -1,0 +1,13 @@
+services:
+  marine-anomaly:
+    build:
+      context: .
+      args:
+        SKLEARN_VERSION: "1.9.0"        # set to the version that saved models/track_a_model.pkl
+    image: marine-anomaly:latest
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/data                    # uploads and results are kept here
+      # - ./models:/app/models:ro       # uncomment to swap model files without rebuilding
+    restart: unless-stopped

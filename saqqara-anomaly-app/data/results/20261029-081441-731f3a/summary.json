@@ -1,0 +1,82 @@
+{
+  "source": "/data/uploads/20261029-081441-731f3a_test_video.mp4",
+  "finished_at": "2026-10-29T08:15:42+00:00",
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 5.0,
+    "live": false,
+    "image_folder": false
+  },
+  "analysed_every_n_frames": 5,
+  "frames_analysed": 60,
+  "counts": {
+    "prawn": 13,
+    "tuna": 14,
+    "cetacean": 15,
+    "none": 18
+  },
+  "frames_flagged_by_stage1": 57,
+  "events": 35,
+  "seconds_taken": 60.6,
+  "avg_ms_per_frame": 906.9,
+  "settings": {
+    "device": "cpu",
+    "stage1": {
+      "img_size": [
+        512,
+        512
+      ],
+      "n_segments": 250,
+      "compactness": 20,
+      "glcm_levels": 32,
+      "glint_thresh": 220,
+      "n_buckets": 3,
+      "bucket_edges": [
+        98.48828532025743,
+        132.1124305725098
+      ],
+      "z_thresh": 2.5,
+      "min_features_flagged": 2,
+      "min_component_area_px": 2000,
+      "local_z_thresh": 2.5,
+      "min_area_local": 1000,
+      "dilation_iters": 2
+    },
+    "stage2": {
+      "route": "whole_frame",
+      "prob_threshold": 0.35,
+      "min_mask_pixels": 80,
+      "keep_largest_blob": true,
+      "crop_padding_px": 20
+    },
+    "track_a": {
+      "ring_px": 25,
+      "min_native_px": 24,
+      "min_native_mask_px": 30,
+      "classes": [
+        "other",
+        "prawn",
+        "tuna"
+      ],
+      "features": [
+        "fill_ratio",
+        "elongation",
+        "extent",
+        "in_L_std_native",
+        "in_edge_native",
+        "contrast_ring",
+        "in_L",
+        "ring_L",
+        "in_a",
+        "ring_a",
+        "in_b",
+        "ring_b"
+      ]
+    },
+    "track_b": {
+      "img_size": 352,
+      "confidence_cutoff": 0.1
+    }
+  }
+}
